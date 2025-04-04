@@ -1,9 +1,11 @@
 import React from 'react'
+import Login from './components/Login'
 
 const App = () => {
   return (
-    <div className="container bg-red-500 mx-auto">
-      <h1>Hello Chat App Realtime</h1>
+    <div className="container mx-auto text-center">
+      <h1>Xin chào tới với Chat App RealTime</h1>
+      <Login />
     </div>
   )
 }
